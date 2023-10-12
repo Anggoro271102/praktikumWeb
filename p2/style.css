@@ -1,0 +1,43 @@
+.header{
+    background-color: aliceblue;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homePage{
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+.home{
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+    background-size: cover;
+    background-image: url(asset/hero.jpg);
+}
+
+.welcome {
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+
+}
+.welcome h1 ,p{
+    color: white;
+}
+.footer{
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: aliceblue;
+}
