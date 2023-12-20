@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container-add">
+            <h2>Add Activity</h3>
+                
+            <!-- form Add Activity-->
+            <form action="" class="todo-form">
+                 <div class="activity">
+                    <h4>Activity</h4>
+                    <input type="text" class="todo-input" id="activityInput" placeholder=" Tambahkan Activity">
+                    <button id="addButton">Add</button>
+                 </div>
+            </form>
+        </div>
+        
+        <div class="container-list">
+            <h2>List Activity</h3>
+                
+            <!-- form List Activity-->
+            <form action="" class="todo-form">
+                <div class="activity">
+                    <h4>List Activity</h4>
+                    <div class="list-activities" id="listActivity"></div>
+                    <div id="actionButtons"></div>
+                </div>
+            </form>
+        </div>                
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
